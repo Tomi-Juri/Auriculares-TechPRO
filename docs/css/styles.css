@@ -444,11 +444,19 @@ img {
 /* --FOTTER--*/
 
 .fotter p {
+    margin-top: 4rem;
     text-transform: uppercase;
     color: var(--primario);
     text-align: center;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 2rem 0;
 }
+
+@media (min-width: 768px) {
+    .fotter p {    
+        font-size: 2.5rem;    
+    }
+}
+
 
