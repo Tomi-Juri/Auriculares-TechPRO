@@ -78,7 +78,7 @@ img {
 /* --HEADER --*/
 
 .header {
-    background-color: var(--negro);
+    background-color: red;
     padding: calc( var(--separacion) * 3) 0;
     color: var(--blanco);
 }
